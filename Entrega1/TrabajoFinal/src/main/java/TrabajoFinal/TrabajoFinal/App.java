@@ -15,7 +15,7 @@ import TrabajoFinal.TrabajoFinal.models.Ronda;
 public class App {
     public static void main(String[] args) throws FileNotFoundException {
         // Abrir el archivo CSV
-    	String rutaArchivo = "C:\\Users\\Julio Tomas\\Desktop\\TrabajoIntegrador\\resultado.csv";
+    	String rutaArchivo = "C:\\Users\\Julio Tomas\\Desktop\\Entrega1,resultados-pronosticos\\resultado.csv";
         File archivo = new File(rutaArchivo);
     	
         Scanner scanner = new Scanner(archivo);           //Escanear el contenido
@@ -58,7 +58,7 @@ public class App {
             System.out.println("");
             Numero += 1;
                                                    //A partir de aqui empezamos a leer el archivo pronostico.csv
-            String rutaArchivo2 = "C:\\Users\\Julio Tomas\\Desktop\\TrabajoIntegrador\\pronostico.csv";
+            String rutaArchivo2 = "C:\\Users\\Julio Tomas\\Desktop\\Entrega1,resultados-pronosticos\\pronostico.csv";
             File archivo2 = new File(rutaArchivo2);
             Scanner scanner2 = new Scanner(archivo2);
             scanner2.nextLine();
